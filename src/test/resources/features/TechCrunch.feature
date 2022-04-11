@@ -7,6 +7,6 @@ Feature: Latest News
     Then Each news has an author
     And Each news has an image
 
-    Scenario: Verify the title and content of a latest news
-      When User clicks on a latest news with index number 10
-      Then Verify that the title of the page is same with the news title
+  Scenario: Verify the title and content of a latest news
+    When User clicks on a latest news with index number 10
+    Then Verify that the title of the page is same with the news title
